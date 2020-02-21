@@ -1,0 +1,54 @@
+.logo-image {
+  width:200px;
+  height:150px;
+}
+header {
+  width: 100%;
+  display:flex;
+  align-items: center;
+  position:fixed;
+}
+ul {
+  list-style: none;
+  display:flex;
+  justify-content: space-around;
+}
+
+nav {
+  width:100%;
+}
+
+.sign-up-page {
+  height:500px;
+  background-color:blue;
+  display:flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.sign-up-form {
+  text-align:center;
+  margin-bottom: 25px;
+}
+
+.video-page {
+  height:550px;
+  display:flex;
+  justify-content:center;
+  align-content:center;
+}
+
+.video {
+  text-align:center;
+}
+
+.consult-with-knuckles {
+  height:600px;
+  background-image: url("https://i.quotev.com/img/q/u/19/11/3/m4mw2sw3dd.jpg")
+}
+
+@media only screen and (max-width: 600px) {
+  nav{
+    display:none;
+  }
+}
